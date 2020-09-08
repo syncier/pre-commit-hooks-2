@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: master
+    upstream: jumanjihouse/pre-commit-hooks
+    mergeMethod: none
+    mergeUnstable: false
